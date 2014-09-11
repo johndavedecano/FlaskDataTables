@@ -11,8 +11,8 @@ Simply copy datatables.py to your flask project and import it.
 
 The module consists of two classes. One is Collection which is responsible for converting your data to JSON string, and DataTables which is responsible for rendering the Datatable HTML and Javascript.
 
+## app.py
 ~~~
-# app.py
 from flask import Flask, Response, render_template
 from modules.datatables import Collections, DataTables
 app = Flask(__name__)
